@@ -34,7 +34,7 @@ jobs:
         name: webapp
         path: website/**
         if-no-file-found: warn
-deploy: 
+  deploy: 
     runs-on: ubuntu-latest
     needs: build 
     steps:
